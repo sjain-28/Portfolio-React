@@ -4,7 +4,7 @@ import travelImg from '../../assets/traveladvisor.png';
 import cryptoImg from '../../assets/cryptoworld.png';
 import quizHub from "../../assets/quizhub.png";
 import oldPortfolio from "../../assets/portfolioOld.png";
-
+import newPortfolio from "../../assets/portfolioNew.png";
 import './portfolio.css';
 
 const projects = [
@@ -57,6 +57,16 @@ const projects = [
             live: 'https://shubhamjain-28.onrender.com/',
         },
         image: oldPortfolio,
+    },
+    {
+        id: 6,
+        title: 'New Portfolio',
+        description: 'My new portfolio website built using React',
+        links: {
+            github: 'https://github.com/sjain-28/Portfolio-React',
+            live: 'https://shubhamjain-28.netlify.app/',
+        },
+        image: newPortfolio,
     }
 ];
 
