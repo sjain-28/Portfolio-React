@@ -15,7 +15,7 @@ const About = () => {
                 <div className='about__data'>
                     <Info />
                     <p className="about__description">
-                        I am a Web Developer with more than two years of experience.I work to make better website, one that is fast, responsive, beautiful, easy to use, accessible to all, and frustration-free. I have ability to create innovative, creative, & interactive websites to boost customer engagement.
+                        I am a Web Developer with more than two years of experience. I work to make better website, one that is fast, responsive, beautiful, easy to use, accessible to all, and frustration-free. I have ability to create innovative, creative, & interactive websites to boost customer engagement.
                     </p>
                     <a download="" href={Resume} className="button button--flex">
                         Download CV 

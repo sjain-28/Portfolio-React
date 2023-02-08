@@ -5,22 +5,26 @@ const Qualification = () => {
     const [pageY, setPageY] = useState(false);
     window.addEventListener("scroll", function () {
 
-        if (window.scrollY >= 2300 && window.scrollY <= 3500 && this.window.innerWidth > 992) {
+        if (window.scrollY >= 2300 && window.scrollY <= 3800 && this.window.innerWidth > 992) {
             setPageY(true)
         }
-        else if (window.scrollY >= 2700 && window.scrollY <= 3800 && this.window.innerWidth < 992 && this.window.innerWidth > 768) {
+        else if (window.scrollY >= 2800 && window.scrollY <= 4000 && this.window.innerWidth < 992 && this.window.innerWidth > 768) {
             setPageY(true)
         }
-        else if (window.scrollY >= 2950 && window.scrollY <= 4000 && this.window.innerWidth <= 768 && this.window.innerWidth > 577) {
+        else if (window.scrollY >= 2950 && window.scrollY <= 4200 && this.window.innerWidth <= 768 && this.window.innerWidth > 600) {
             setPageY(true)
         }
-        else if (window.scrollY >= 3700 && window.scrollY <= 4800 && this.window.innerWidth <= 576 && this.window.innerWidth > 480) {
+        else if (window.scrollY >= 4500 && window.scrollY <= 5700 && this.window.innerWidth <= 600 && this.window.innerWidth > 576) {
             setPageY(true)
         }
-        else if (window.scrollY >= 3400 && window.scrollY <= 4900 && this.window.innerWidth < 480 && this.window.innerWidth > 350) {
+        else if (window.scrollY >= 4330 && window.scrollY <= 5600 && this.window.innerWidth <= 576 && this.window.innerWidth > 480) {
             setPageY(true)
         }
-        else if (window.scrollY >= 3100 && window.scrollY <= 4500 && this.window.innerWidth < 350 ) {
+        else if (window.scrollY >= 4050 && window.scrollY <= 5300 && this.window.innerWidth <= 480 && this.window.innerWidth > 350) {
+            setPageY(true)
+        }
+
+        else if (window.scrollY >= 4100 && window.scrollY <= 5250 && this.window.innerWidth < 350) {
             setPageY(true)
         }
         else setPageY(false);
